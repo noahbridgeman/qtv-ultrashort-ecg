@@ -1,0 +1,21 @@
+[project]
+name = "autonomousassessment"
+version = "0.1.0"
+description = "QT variability from ultra-short ECG segments: i2DSW vs. NeuroKit2 (Bachelor thesis)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "h5py>=3.16.0",
+    "ipykernel>=7.3.0",
+    "ipympl>=0.10.0",
+    "matplotlib>=3.11.0",
+    "nbformat>=5.10.4",
+    "neurokit2>=0.2.13",
+    "numpy>=2.5.0",
+    "pandas>=2.3.3",
+    "pandas-stubs~=2.3.3",
+    "plotly>=6.8.0",
+    "scipy>=1.18.0",
+    "scipy-stubs~=1.18.0",
+    "wfdb>=4.3.1",
+]

@@ -1,0 +1,17 @@
+# Datasets are not distributed
+data/
+*.mat
+*.hea
+*.dat
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE / OS
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
